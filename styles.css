@@ -13,7 +13,8 @@ h2 {
   font-size: 30px;
 }
 
-.table {
+table {
+  width: 90%;
   margin: 0 auto;
 }
 
