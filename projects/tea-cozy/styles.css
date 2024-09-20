@@ -1,3 +1,4 @@
+/* Global */
 html {
   font-family: Helvetica;
   font-size: 22px;
@@ -5,4 +6,12 @@ html {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+}
+
+a {
+  color: seashell;
+}
+
+a:visited {
+  color: seashell;
 }
