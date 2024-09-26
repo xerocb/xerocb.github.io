@@ -62,4 +62,5 @@ a:visited {
 #mission > div {
   margin: 0 auto;
   background-color: black;
+  width: 100%;
 }
