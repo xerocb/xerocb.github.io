@@ -21,7 +21,7 @@ header {
   position: fixed;
   height: 69px;
   width: 100%;
-  margin: 10px auto;
+  margin: 0px 10px;
 }
 
 header > img {
