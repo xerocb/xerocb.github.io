@@ -68,3 +68,7 @@ a:visited {
 #mission > div > * {
   margin: 10px auto;
 }
+
+#mission > div > h2 {
+  margin-bottom: 20px;
+}
