@@ -72,3 +72,18 @@ a:visited {
 #mission > div > h2 {
   margin-bottom: 20px;
 }
+
+/* Tea of the Month */
+#totm {
+  width: 1000px;
+  margin: 20px auto;
+}
+
+#totm > div > figure {
+  display: inline-block;
+  width: 300px;
+}
+
+#totm > div > figure > img {
+  height: 200px;
+}
