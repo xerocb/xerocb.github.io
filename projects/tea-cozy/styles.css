@@ -86,7 +86,6 @@ a:visited {
 #totm > div {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 #totm > div > figure {
