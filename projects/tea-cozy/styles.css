@@ -112,6 +112,11 @@ a:visited {
 }
 
 #locations > div {
+  display: flex;
+  align-items: center;
+}
+
+#locations > div > div {
   display: inline-block;
   width: 300px;
   background-color: black;
