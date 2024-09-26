@@ -114,6 +114,10 @@ a:visited {
   justify-content: center;
 }
 
+#locations > div > h2 {
+  margin: 15px;
+}
+
 #locations > div > div {
   display: inline-block;
   width: 300px;
