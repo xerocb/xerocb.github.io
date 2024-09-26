@@ -86,6 +86,7 @@ a:visited {
 #totm > div {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 #totm > div > figure {
