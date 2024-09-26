@@ -109,16 +109,8 @@ a:visited {
   height: 500px;
   width: 1200px;
   margin: 0 auto;
-}
-
-#locations > div {
   display: flex;
   align-items: center;
-  height: 100%;
-}
-
-#locations > div > h2 {
-  display: block;
 }
 
 #locations > div > div {
