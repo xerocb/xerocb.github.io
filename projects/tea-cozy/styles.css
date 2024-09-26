@@ -125,3 +125,13 @@ a:visited {
   margin: 0 20px;
   opacity: 1;
 }
+
+/* Footer */
+footer > div {
+  height: 200px;
+}
+
+footer > h5 {
+  text-align: left;
+  margin-left: 20px;
+}
