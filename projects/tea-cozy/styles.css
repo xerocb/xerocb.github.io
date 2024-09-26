@@ -79,8 +79,17 @@ a:visited {
   margin: 20px auto;
 }
 
+#totm > h4 {
+  margin-bottom: 20px;
+}
+
+#totm > div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 #totm > div > figure {
-  display: inline-block;
+  flex: 0 0 auto;
   width: 300px;
   margin: 10px;
 }
