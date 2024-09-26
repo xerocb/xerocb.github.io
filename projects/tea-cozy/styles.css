@@ -8,17 +8,25 @@ html {
   text-align: center;
 }
 
+/* Header */
+header {
+  border-bottom: 1px solid seashell;
+  display: fixed;
+  height: 69px;
+}
+
+header > img {
+  height: 50px;
+}
+
+li {
+  display: inline-block;
+}
+
 a {
   color: seashell;
 }
 
 a:visited {
   color: seashell;
-}
-
-/* Header */
-header {
-  border-bottom: 1px solid seashell;
-  display: fixed;
-  height: 69px;
 }
