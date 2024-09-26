@@ -33,3 +33,9 @@ a {
 a:visited {
   color: seashell;
 }
+
+/* Mission Section */
+#mission {
+  position: relative;
+  top: 69px;
+}
