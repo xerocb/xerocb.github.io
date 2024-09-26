@@ -82,8 +82,13 @@ a:visited {
 #totm > div > figure {
   display: inline-block;
   width: 300px;
+  margin: 10px;
 }
 
 #totm > div > figure > img {
   height: 200px;
+}
+
+#totm > div > figure > figcaption > h4 {
+  margin: 10px;
 }
