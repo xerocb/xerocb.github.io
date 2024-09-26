@@ -86,11 +86,13 @@ a:visited {
 #totm > div {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 #totm > div > figure {
   flex: 0 0 auto;
   width: 300px;
+  margin: 10px;
 }
 
 #totm > div > figure > img {
