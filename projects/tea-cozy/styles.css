@@ -11,7 +11,7 @@ html {
 /* Header */
 header {
   border-bottom: 1px solid seashell;
-  display: fixed;
+  position: fixed;
   height: 69px;
 }
 
