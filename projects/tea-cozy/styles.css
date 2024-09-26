@@ -10,6 +10,8 @@ html {
 
 /* Header */
 header {
+  display: flex;
+  align-items: center;
   border-bottom: 1px solid seashell;
   position: fixed;
   height: 69px;
