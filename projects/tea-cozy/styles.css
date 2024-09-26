@@ -12,6 +12,12 @@ body {
   margin: 0px;
 }
 
+section,
+footer {
+  position: relative;
+  top: 69px;
+}
+
 /* Header */
 header {
   display: flex;
@@ -44,12 +50,15 @@ a:visited {
 
 /* Mission Section */
 #mission {
-  position: relative;
-  top: 69px;
   background-image: url("images/background.jpg");
   height: 700px;
   width: 1200px;
   margin: 0 auto;
   display: flex;
   align-items: center;
+}
+
+#mission > div {
+  display: flex;
+  justify-content: center;
 }
