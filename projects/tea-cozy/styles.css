@@ -18,6 +18,13 @@ footer {
   top: 69px;
 }
 
+:target {
+    display: block;
+    position: relative;
+    top: -69px;
+    visibility: hidden;
+}
+
 /* Header */
 header {
   display: flex;
