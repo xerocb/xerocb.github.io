@@ -29,6 +29,7 @@ header {
   background-color: black;
   height: 69px;
   width: 100%;
+  top: 0;
   z-index: 10;
 }
 
@@ -51,7 +52,7 @@ a:visited {
 }
 
 /* Mission */
-#mission {
+#mission-content {
   background-image: url("images/background.jpg");
   height: 700px;
   width: 1200px;
@@ -60,52 +61,52 @@ a:visited {
   align-items: center;
 }
 
-#mission > div {
+#mission-content > div {
   margin: 0 auto;
   background-color: black;
   width: 100%;
 }
 
-#mission > div > * {
+#mission-content > div > * {
   margin: 10px auto;
 }
 
-#mission > div > h2 {
+#mission-content > div > h2 {
   margin-bottom: 20px;
 }
 
 /* Tea of the Month */
-#totm {
+#totm-content {
   width: 1000px;
   margin: 20px auto;
 }
 
-#totm > h4 {
+#totm-content > h4 {
   margin-bottom: 20px;
 }
 
-#totm > div {
+#totm-content > div {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-#totm > div > figure {
+#totm-content > div > figure {
   flex: 0 0 auto;
   width: 300px;
   margin: 10px;
 }
 
-#totm > div > figure > img {
+#totm-content > div > figure > img {
   height: 200px;
 }
 
-#totm > div > figure > figcaption > h4 {
+#totm-content > div > figure > figcaption > h4 {
   margin: 10px;
 }
 
 /* Locations */
-#locations {
+#locations-content {
   background-image: url("images/locations.jpg");
   height: 500px;
   width: 1200px;
@@ -115,11 +116,11 @@ a:visited {
   justify-content: center;
 }
 
-#locations > div > h2 {
+#locations-content > div > h2 {
   margin: 0 0 15px 0;
 }
 
-#locations > div > div {
+#locations-content > div > div {
   display: inline-block;
   width: 300px;
   background-color: black;
