@@ -1,6 +1,60 @@
 <!DOCTYPE html>
 <html>
-  <a href="projects/cheat-sheet/cheat-sheet.html">Cheat Sheet</a>
-  <a href="projects/style-guide/style-guide.html">Style Guide</a>
-  <a href="projects/tea-cozy/tea-cozy.html">Tea Cozy</a>
+    <head>
+        <title>My Portfolio</title>
+        <link href="styles.css" type="text/css" rel="stylesheet">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+
+    <body>
+        <nav>
+            <h1>Ciaran Brady</h1>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li id="skills-link"><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li id="button"><div onclick="changeColor()" class="light">Dark Mode</div></li>
+            </ul>
+        </nav>
+
+        <main>
+            <div id="about"></div>
+            <section id="about-content">
+                <div class="major">
+                    <h2>About Me</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, architecto pariatur in iusto impedit vero modi eos, nesciunt nobis illum distinctio voluptatem ad nisi aspernatur, non eligendi asperiores. Eaque, in!</p>
+                </div>
+                <div class="minor">
+                </div>
+            </section>
+            <div id="projects"></div>
+            <section id="projects-content">
+                <h2>Projects</h2>
+                <ul>
+                    <li><a href="projects/tea-cozy/tea-cozy.html" target="_blank">Tea Cozy</a></li>
+                    <li><a href="https://jammmingcb.netlify.app" target="_blank">Jammming</a></li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <div id="contact"></div>
+            <div id="contact-content" class="minor">
+                <h2>Contact</h2>
+                <ul>
+                    <li>Email</li>
+                    <li>LinkedIn</li>
+                </ul>
+            </div>
+            <div id="skills"></div>
+            <div id="skills-content" class="major">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Skill 1</li>
+                    <li>Skill 2</li>
+                </ul>
+            </div>
+        </footer>
+    </body>
 </html>
