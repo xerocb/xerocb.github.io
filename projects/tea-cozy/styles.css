@@ -12,12 +12,6 @@ body {
   margin: 0px;
 }
 
-section,
-footer {
-  position: relative;
-  top: 69px;
-}
-
 :target {
     display: block;
     position: relative;
@@ -61,7 +55,7 @@ a:visited {
   background-image: url("images/background.jpg");
   height: 700px;
   width: 1200px;
-  margin: 0 auto;
+  margin: 69px auto;
   display: flex;
   align-items: center;
 }
